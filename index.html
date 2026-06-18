@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ruth-Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Bollam Ruth, a full stack web developer showcasing projects, skills, certifications, education, and contact information."
+    />
+    <meta name="keywords" content="Bollam Ruth, portfolio, resume, full stack web developer, React, Node.js, MySQL, projects" />
+    <meta name="author" content="Bollam Ruth" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/" />
+    <meta property="og:title" content="Bollam Ruth | Full Stack Web Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore Bollam Ruth's full stack projects, resume highlights, certifications, and contact details."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#080808" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bollam Ruth",
+        "jobTitle": "Full Stack Web Developer",
+        "email": "mailto:ruthgracy490@gmail.com",
+        "telephone": "+91 9182362398",
+        "address": "Karamangari Thota, near BhaskarRao Hospital, Gollaprolu",
+        "url": "https://example.com/",
+        "sameAs": [],
+        "knowsAbout": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MySQL", "SQL", "Java", "Python", "C", "C++"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script>
+      Babel.registerPreset("react-classic", {
+        presets: [[Babel.availablePresets.react, { runtime: "classic" }]],
+      });
+    </script>
+    <script type="text/babel" data-presets="react-classic" src="script.js"></script>
+  </body>
+</html>
